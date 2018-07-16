@@ -1,0 +1,128 @@
+
+a {
+    font-size: 12px;
+}
+
+h1, 
+p {
+    color: white;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+h5 {
+    color: black;
+}
+
+.text-center {
+    color: black;
+    font-size: 26px;
+}
+
+.about {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.card-img-top {
+    height: 80%;
+}
+
+.card-text {
+    color: black;
+    font-size: 14px;
+    font-weight: light;
+}
+
+.card-body {
+    padding-bottom: 0px;
+}
+
+#case {
+    text-align: center;
+}
+
+#about,
+#areas {
+    color: white
+}
+
+.list {
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+#examples {
+    height: 600px;
+    width: 200px;
+}
+
+#pic {
+    left: 25%;
+}
+
+.name {
+    left: 50%;
+}
+
+/* MEDIA QUERIES */
+
+@media all and (min-width:4px) {
+
+    
+    img {
+        display:block;
+        margin:0 auto;
+}
+.firstbox {
+    width: 50%;
+    clear: both;
+    display: block;
+}
+@mixin clearfix() {
+    &::after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+  }
+
+  .card-body,
+  .col-sm {
+      display: block;
+      text-align: center;
+  }
+
+  @media only screen and (min-width:500px) {
+
+    #examples {
+        margin-left: 2em;
+        margin-right: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) {
+
+    .main {
+        text-align: center;
+    }
+#pic {
+display: none;
+}
+
+.card-img {
+    display: inline-block;
+    float: left;
+}
+
+h1{
+    display: inline-block;
+    float: right;
+}
+}
